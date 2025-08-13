@@ -1,4 +1,3 @@
-import { NextSeo } from 'next-seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -51,7 +50,6 @@ export default function Blog() {
   ];
 
   return (
-    <>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
         <header className="bg-white shadow-sm border-b">
@@ -161,6 +159,5 @@ export default function Blog() {
 
         <Footer />
       </div>
-    </>
   );
 }
