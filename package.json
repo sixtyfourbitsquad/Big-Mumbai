@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "postbuild": "next-sitemap"
-    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
